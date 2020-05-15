@@ -4,7 +4,7 @@
 This is an implementation of the Globally-Aware Multiple Instance Classifier (GMIC) model as described in [our paper](https://arxiv.org/abs/2002.07613). The architecture of the proposed model is shown below.
 
 <p align="center">
-  <img width="793" height="729" src="https://github.com/aisosalo/GMIC/devel/doc/mia_structure.png">
+  <img width="793" height="729" src="https://github.com/aisosalo/GMIC/blob/devel/doc/mia_structure.png">
 </p>
 
 Highlights of GMIC:
