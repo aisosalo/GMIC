@@ -4,7 +4,7 @@
 This is an implementation of the Globally-Aware Multiple Instance Classifier (GMIC) model as described in [our paper](https://arxiv.org/abs/2002.07613). The architecture of the proposed model is shown below.
 
 <p align="center">
-  <img width="793" height="729" src="https://github.com/nyukat/GMIC/blob/master/mia_structure.png">
+  <img width="793" height="729" src="https://github.com/aisosalo/GMIC/devel/doc/mia_structure.png">
 </p>
 
 Highlights of GMIC:
@@ -22,9 +22,6 @@ The implementation allows users to obtain breast cancer predictions and visualiz
   * saliency map for benign class,
   * saliency map for malignant class,
   * 6 ROI proposal patches with the associated attention score on top.
-  
-![alt text](https://github.com/nyukat/GMIC/blob/master/sample_data/sample_visualization.png)
-
 
 
 ## Prerequisites
