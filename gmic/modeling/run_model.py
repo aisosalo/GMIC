@@ -30,10 +30,10 @@ import torch
 import tqdm
 import cv2
 import matplotlib.cm as cm
-from src.utilities import pickling, tools
-from src.modeling import gmic as gmic
-from src.data_loading import loading
-from src.constants import VIEWS, PERCENT_T_DICT
+from gmic.utilities import pickling, tools
+from gmic.modeling import gmic as gmic
+from gmic.data_loading import loading
+from gmic.constants import VIEWS, PERCENT_T_DICT
 
 
 def visualize_example(input_img, saliency_maps, true_segs,

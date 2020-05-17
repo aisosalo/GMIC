@@ -24,8 +24,8 @@ Module that define the core logic of GMIC
 import torch
 import torch.nn as nn
 import numpy as np
-from src.utilities import tools
-import src.modeling.modules as m
+from gmic.utilities import tools
+import gmic.modeling.modules as m
 
 
 class GMIC(nn.Module):

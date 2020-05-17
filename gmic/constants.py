@@ -18,7 +18,7 @@
 # ==============================================================================
 
 """
-Defines constants used in src.
+Defines constants used in gmic.
 """
 
 class VIEWS:

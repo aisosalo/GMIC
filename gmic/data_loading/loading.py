@@ -18,7 +18,7 @@
 # ==============================================================================
 
 import numpy as np
-from src.constants import VIEWS
+from gmic.constants import VIEWS
 import imageio
 
 

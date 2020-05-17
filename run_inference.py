@@ -9,7 +9,7 @@ See: https://github.com/nyukat/GMIC/master/LICENSE
 import sys
 import argparse
 
-from src.scripts.run_model import start_experiment
+from gmic.modeling.run_model import start_experiment
 
 print(sys.version, sys.platform, sys.executable)
 

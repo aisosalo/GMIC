@@ -26,7 +26,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
-from src.utilities import tools
+from gmic.utilities import tools
 from torchvision.models.resnet import conv3x3
 
 
