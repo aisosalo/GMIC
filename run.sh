@@ -13,7 +13,7 @@ OUTPUT_PATH='sample_output'
 export PYTHONPATH=$(pwd):$PYTHONPATH
 
 echo 'Run Classifier'
-python3 src/scripts/run_model.py \
+python3 gmic/modeling/run_model.py \
     --model-path $MODEL_PATH \
     --data-path $EXAM_LIST_PATH \
     --image-path $CROPPED_IMAGE_PATH \
