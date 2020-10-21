@@ -152,7 +152,7 @@ def run_model(model, exam_list, parameters, turn_on_visualization):
                 loaded_image = loading.load_image(
                     image_path=os.path.join(parameters["image_path"], short_file_path + ".png"),
                     view=view,
-                    horizontal_flip=False,
+                    horizontal_flip=datum['horizontal_flip'],
                 )
                 loading.standard_normalize_single_image(loaded_image)
                 # load segmentation if available
@@ -164,14 +164,14 @@ def run_model(model, exam_list, parameters, turn_on_visualization):
                     loaded_seg = loading.load_image(
                         image_path=benign_seg_path,
                         view=view,
-                        horizontal_flip=False,
+                        horizontal_flip=datum['horizontal_flip'],
                     )
                     benign_seg = loaded_seg
                 if os.path.exists(malignant_seg_path):
                     loaded_seg = loading.load_image(
                         image_path=malignant_seg_path,
                         view=view,
-                        horizontal_flip=False,
+                        horizontal_flip=datum['horizontal_flip'],
                     )
                     malignant_seg = loaded_seg
                 # convert python 2D array into 4D torch tensor in N,C,H,W format
